@@ -1,0 +1,4 @@
+/home/jakub/Pulpit/SO/lab6/air_so_278319_jakub_borsukiewicz/QUEUE/build/CMakeFiles/producent.dir
+/home/jakub/Pulpit/SO/lab6/air_so_278319_jakub_borsukiewicz/QUEUE/build/CMakeFiles/konsument.dir
+/home/jakub/Pulpit/SO/lab6/air_so_278319_jakub_borsukiewicz/QUEUE/build/CMakeFiles/edit_cache.dir
+/home/jakub/Pulpit/SO/lab6/air_so_278319_jakub_borsukiewicz/QUEUE/build/CMakeFiles/rebuild_cache.dir

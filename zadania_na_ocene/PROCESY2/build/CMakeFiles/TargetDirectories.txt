@@ -1,0 +1,3 @@
+/home/jakub/Pulpit/SO/lab6/air_so_278319_jakub_borsukiewicz/PROCESY2/build/CMakeFiles/program.dir
+/home/jakub/Pulpit/SO/lab6/air_so_278319_jakub_borsukiewicz/PROCESY2/build/CMakeFiles/edit_cache.dir
+/home/jakub/Pulpit/SO/lab6/air_so_278319_jakub_borsukiewicz/PROCESY2/build/CMakeFiles/rebuild_cache.dir

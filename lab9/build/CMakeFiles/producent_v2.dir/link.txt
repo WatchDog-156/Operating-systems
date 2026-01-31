@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -pedantic CMakeFiles/producent_v2.dir/producent_v2.c.o -o producent_v2  -lrt 

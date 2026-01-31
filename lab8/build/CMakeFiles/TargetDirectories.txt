@@ -1,0 +1,4 @@
+/home/jakub/Pulpit/SO/lab8/build/CMakeFiles/producent.dir
+/home/jakub/Pulpit/SO/lab8/build/CMakeFiles/konsument.dir
+/home/jakub/Pulpit/SO/lab8/build/CMakeFiles/edit_cache.dir
+/home/jakub/Pulpit/SO/lab8/build/CMakeFiles/rebuild_cache.dir

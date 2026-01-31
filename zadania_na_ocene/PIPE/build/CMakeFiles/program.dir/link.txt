@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -pedantic CMakeFiles/program.dir/zadanie8.c.o -o program 

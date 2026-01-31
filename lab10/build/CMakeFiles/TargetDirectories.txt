@@ -1,0 +1,5 @@
+/home/jakub/Pulpit/SO/lab10/build/CMakeFiles/zad1.dir
+/home/jakub/Pulpit/SO/lab10/build/CMakeFiles/zad2k.dir
+/home/jakub/Pulpit/SO/lab10/build/CMakeFiles/zad2p.dir
+/home/jakub/Pulpit/SO/lab10/build/CMakeFiles/edit_cache.dir
+/home/jakub/Pulpit/SO/lab10/build/CMakeFiles/rebuild_cache.dir
