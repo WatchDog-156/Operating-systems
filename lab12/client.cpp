@@ -19,11 +19,12 @@ int main(){
         return 1;
     }
 
-    int wr_status = write(sd, "Hello, World!!!\n", sizeof("Hello, World!!!\n"));
-    if(wr_status != sizeof("Hello, World!!!\n")){
+    int wr_status = write(sd, "Hello, World!!!", sizeof("Hello, World!!!"));
+    if(wr_status != sizeof("Hello, World!!!")){
         std::cout << "Nie powiodło się write()" << std::endl;
         return 1;
     }
+    std::cout << "Wyslano: Hello, World!!!" << std::endl;
 
     char buf[8000];
     int rd_status = read(sd, buf, 8000);
@@ -32,6 +33,6 @@ int main(){
         return 1;
     }
 
-    std::cout << "Odczytano: " << buf;
+    std::cout << buf << std::endl;
     return 0;
 }

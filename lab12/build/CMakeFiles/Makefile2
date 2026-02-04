@@ -54,16 +54,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakub/Pulpit/SO/lab12
+CMAKE_SOURCE_DIR = /home/jakub/Pulpit/Operating-systems/lab12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakub/Pulpit/SO/lab12/build
+CMAKE_BINARY_DIR = /home/jakub/Pulpit/Operating-systems/lab12/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/zadanie.dir/all
+all: CMakeFiles/client.dir/all
+all: CMakeFiles/server.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/zadanie.dir/clean
+clean: CMakeFiles/client.dir/clean
+clean: CMakeFiles/server.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/zadanie.dir
+# Target rules for target CMakeFiles/client.dir
 
 # All Build rule for target.
-CMakeFiles/zadanie.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadanie.dir/build.make CMakeFiles/zadanie.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadanie.dir/build.make CMakeFiles/zadanie.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakub/Pulpit/SO/lab12/build/CMakeFiles --progress-num=1,2 "Built target zadanie"
-.PHONY : CMakeFiles/zadanie.dir/all
+CMakeFiles/client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles --progress-num=1,2 "Built target client"
+.PHONY : CMakeFiles/client.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/zadanie.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakub/Pulpit/SO/lab12/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zadanie.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakub/Pulpit/SO/lab12/build/CMakeFiles 0
-.PHONY : CMakeFiles/zadanie.dir/rule
+CMakeFiles/client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles 0
+.PHONY : CMakeFiles/client.dir/rule
 
 # Convenience name for target.
-zadanie: CMakeFiles/zadanie.dir/rule
-.PHONY : zadanie
+client: CMakeFiles/client.dir/rule
+.PHONY : client
 
 # clean rule for target.
-CMakeFiles/zadanie.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadanie.dir/build.make CMakeFiles/zadanie.dir/clean
-.PHONY : CMakeFiles/zadanie.dir/clean
+CMakeFiles/client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
+.PHONY : CMakeFiles/client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/server.dir
+
+# All Build rule for target.
+CMakeFiles/server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles --progress-num=3,4 "Built target server"
+.PHONY : CMakeFiles/server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles 0
+.PHONY : CMakeFiles/server.dir/rule
+
+# Convenience name for target.
+server: CMakeFiles/server.dir/rule
+.PHONY : server
+
+# clean rule for target.
+CMakeFiles/server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/clean
+.PHONY : CMakeFiles/server.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -8,4 +8,5 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -pedantic")
 
 # Dodanie pliku wykonywalnego
-add_executable(zadanie main.cpp)
+add_executable(client client.cpp)
+add_executable(server server.cpp)

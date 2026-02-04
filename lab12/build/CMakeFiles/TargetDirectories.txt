@@ -1,3 +1,4 @@
-/home/jakub/Pulpit/SO/lab12/build/CMakeFiles/zadanie.dir
-/home/jakub/Pulpit/SO/lab12/build/CMakeFiles/edit_cache.dir
-/home/jakub/Pulpit/SO/lab12/build/CMakeFiles/rebuild_cache.dir
+/home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles/client.dir
+/home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles/server.dir
+/home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles/edit_cache.dir
+/home/jakub/Pulpit/Operating-systems/lab12/build/CMakeFiles/rebuild_cache.dir
