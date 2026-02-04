@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -Wextra -pedantic CMakeFiles/zad1.dir/zad1.c.o -o zad1  -lrt 

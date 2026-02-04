@@ -1,6 +1,0 @@
-/home/jakub/Pulpit/SO/lab9/build/CMakeFiles/producent.dir
-/home/jakub/Pulpit/SO/lab9/build/CMakeFiles/konsument.dir
-/home/jakub/Pulpit/SO/lab9/build/CMakeFiles/producent_v2.dir
-/home/jakub/Pulpit/SO/lab9/build/CMakeFiles/konsument_v2.dir
-/home/jakub/Pulpit/SO/lab9/build/CMakeFiles/edit_cache.dir
-/home/jakub/Pulpit/SO/lab9/build/CMakeFiles/rebuild_cache.dir
